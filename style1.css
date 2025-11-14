@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-color: #000;
+    color: white;
+    height: 12vh;
+}
+header{
+    background-color: #000;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+}
+#logo{
+    height: 60px;
+    margin-right: 545px;
+}
+#search_{
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 0 12px;
+}
+.button{
+    height: 33px;
+    border-radius: 10px;
+    width: 60px;
+}
+nav div li{
+    list-style: none;
+}
+nav div li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 600px;
+}
+nav div li a:hover{
+    color:whitesmoke;
+    font-weight: bold;
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+    background-color: black;
+}
+#pages{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    padding: 20px;
+}
+#pages :hover{
+    transform: scale(1.2);
+}
+main div img{
+    margin-right: 30px;
+}
+#iphone{
+    color: white;
+    margin:0  20px;
+}
+#iphone_image{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+#deals{
+    color: white;
+    margin:0 20px
+}
